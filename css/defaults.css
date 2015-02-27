@@ -25,6 +25,10 @@ b{
 .enfasis{
 	font-family: 'petrobras_sansbold';
 }
+.black {
+	font-family: 'petrobras_sansbold';
+	font-size: .8em;
+}
 .dropCaps { 
 	color: #00814A;
 	font-size: 4.5em;
