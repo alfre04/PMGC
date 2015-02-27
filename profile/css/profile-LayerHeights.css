@@ -29,9 +29,10 @@ section {
 
 }
 .layer1{
-	background: transparent;
-	width: 100%;
+	background: none repeat scroll 0 0 transparent;
 	height: 9895px;
+	top: 3750px !important;
+	width: 100%;
 	z-index: 10;
 }
 .layer2{
