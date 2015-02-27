@@ -9,7 +9,7 @@
 	background-position: -0px 0px;
 }
 .title h1 {
-	color:rgba(64,53,48,1);
+	color:#008c4f;
 	font-family: 'petrobras_sanslight';
 	position: absolute;
 	font-size: 5.6em;
@@ -17,7 +17,7 @@
 	left:10%; 
 	width: 90%;
 	text-shadow: 0px 1px 0px #000;
-	text-transform: uppercase;
+
 }
 .Big {
 	font-family: 'petrobras_sansbold';
@@ -32,6 +32,10 @@ h3 {
 	text-align: left;
 }
 
+.inicial{
+	font-size:5.6em;
+	color:#008c4f;
+}
 
 
 
@@ -52,13 +56,13 @@ h3 {
 
 .intro-Article{
 	position: absolute;
-	top: 1000px;
+	top: 700px;
 }
 
 .titfoto1{
 	position: absolute;
-	right: 0;
-	top: 1500px;
+	left: 20px;
+	top: 1000px;
 }
 
 .forum{
