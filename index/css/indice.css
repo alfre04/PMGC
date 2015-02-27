@@ -1,0 +1,163 @@
+body html {
+	height: 100%;
+	width:100%;
+	position: relative;
+}
+
+/** ----------------------------------
+
+	background-size, babackground-attachement hack 
+	Estas dos declaraciones de Css permiten que el fondo este fijo y escalado al centro del viewport 
+
+**/
+#bg {
+ position: fixed; 
+ top: -50%; 
+   left: -50%; 
+   width: 200%; 
+   height: 200%;
+}
+#bg img {
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ right: 0; 
+ bottom: 0; 
+ margin: auto; 
+ width: 50%;
+ height: 50%;
+ z-index: 1;
+}
+
+/** End of background hack **/ 
+
+.logoPB{
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+
+.index{
+position: absolute;
+width: 100%;
+height: 100%;
+margin-top: 50px;
+}
+.article {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 12%;
+}
+
+.welcome{
+	
+ left: 0;
+    position: absolute;
+    top: -122px;
+/*	background: url('../imgs/indice/spiralArrow.png') no-repeat;background-position: 270px 50px; */
+}
+
+.dimensions{
+	
+	position: absolute;
+	left: 450px;
+    top: 13px;
+/*	background: url('../imgs/indice/spiralArrow.png') no-repeat;background-position: 270px 50px; */
+}
+.dialogo {
+	position: absolute;
+	left: 160px;
+    top: 32px;
+/*	background: url('../imgs/indice/dialoguesArrow.png') no-repeat;background-position: 270px 50px; */
+}
+.allOver {
+	position: absolute;
+	top:110px;
+	left:-10px;
+/*	background: url('../imgs/indice/alloverArrow.png') no-repeat;background-position: 270px 50px; */
+}
+.energyGeek {
+left: -35px;
+    position: absolute;
+    top: 252px;
+/*	background: url('../imgs/indice/energyArrow.png') no-repeat;background-position: 270px 50px; */
+}
+.prisma {
+left: -30px;
+    position: absolute;
+    top: 390px;
+/*	background: url('../imgs/indice/prismaArrow.png') no-repeat;background-position: 270px 50px; */
+}
+.overTheSeas {
+	position: absolute;
+  left: 95px;
+   
+    top: 523px;
+/*	background: url('../imgs/indice/overArrow.png') no-repeat;background-position: 270px 50px; */
+}
+.frontiers {
+	position: absolute;
+ left: 559px;
+
+    top: 132px;
+/*	background: url('../imgs/indice/spiralArrow.png') no-repeat;background-position: 270px 50px; */
+}
+.profile {
+	position: absolute;
+	left: 518px;
+    top: 391px;
+/*	background: url('../imgs/indice/insideArrow.png') no-repeat;background-position: 270px 50px; */
+}
+
+.artBook {
+left: 451px;
+    position: absolute;
+    top: 483px;
+/*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
+}
+
+.bigbang {
+	position: absolute;
+	  left: 340px;
+   
+    top: 571px;
+/*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
+}
+
+
+
+
+
+
+
+.article h3{
+	font-family: 'petrobras_sansbold';
+	color: white;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	text-align: left;
+	width: 80%;
+	margin-left: 13%;
+}
+.article h4{
+	font-family: 'petrobras_sansregular';
+	color: white;
+	font-size: 1em;
+	margin-left: 13%;
+	text-align: left;
+	width: 65%;
+	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+
