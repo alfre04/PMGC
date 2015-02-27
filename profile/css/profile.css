@@ -131,13 +131,13 @@ TxtCols
 
 
 .toTop{
-	position: absolute;
-	top:10260px;
 	left: 50%;
 	margin-left: -100px;
+	position: absolute;
+	top: 6960px;
 }
 .footer{
+	left: 0;
 	position: absolute;
-	top: 6850px;
-	left: 0px;
+	top: 4510px;
 }
