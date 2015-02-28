@@ -12,7 +12,7 @@
 	background-position: -0px 0px;
 }
 .title h1 {
-	color:rgba(64,53,48,1);
+	color:#FFF;
 	font-family: 'petrobras_sanslight';
 	position: absolute;
 	font-size: 5.6em;
@@ -130,7 +130,7 @@ h3 {
 .foto3-Caption{
 	position: absolute;
 	top: 4600px;
-	right: 10%;
+	right: 70%;
 }
 .foto4-Caption{
 	position: absolute;
