@@ -51,16 +51,19 @@ h3 {
 /* ------------------------------------------- positions*/
 
 .title {
+	visibility: hidden;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 }
 .lineasSubHead {
+	visibility: hidden;
 	position: absolute;
 	top:700px;
 }
 
 .intro-Article{
+	visibility: hidden;
 	position: absolute;
 	top: 1000px;
 }
@@ -71,21 +74,25 @@ h3 {
    |********| */
 
 .first-picture{
+	visibility: hidden;
 	position: absolute;
 	right: 0;
 	top: 1900px;
 }
 .second-picture{
+	visibility: hidden;
 	position: absolute;
 	right: 0;
 	top: 2900px;
 }
 .third-picture{
+	visibility: hidden;
 	position: absolute;
 	left: 0;
 	top: 3600px;
 }
 .fourth-picture{
+	visibility: hidden;
 	position: absolute;
 	right: 0;
 	top: 6800px;
@@ -97,16 +104,19 @@ h3 {
    |********| */
 
 .first-pleca{
+	visibility: hidden;
 	position: absolute;
 	left: 0;
 	top: 1250px;
 }
 .second-pleca{
+	visibility: hidden;
 	position: absolute;
 	right: 0;
 	top: 5650px;
 }
 .third-pleca{
+	visibility: hidden;
 	position: absolute;
 	left: 0;
 	top: 7250px;
@@ -118,21 +128,25 @@ h3 {
    |********| */
 
 .foto1-Caption{
+	visibility: hidden;
 	position: absolute;
 	top: 1950px;
 	left: 0px;
 }
 .foto2-Caption{
+	visibility: hidden;
 	position: absolute;
 	top: 3800px;
 	left: 0px;
 }
 .foto3-Caption{
+	visibility: hidden;
 	position: absolute;
 	top: 4600px;
 	right: 10%;
 }
 .foto4-Caption{
+	visibility: hidden;
 	position: absolute;
 	top: 8500px;
 	left: 0px;
@@ -145,27 +159,33 @@ h3 {
 TxtCols
 *********/
 .first-Txt{
+	visibility: hidden;
 	position: absolute;
 	top: 2900px;
 }
 .second-Txt{
+	visibility: hidden;
 	position: absolute;
 	top: 3150px;
 }
 .third-Txt{
+	visibility: hidden;
 	position: absolute;
 	top: 5600px;
 }
 .fourth-Txt{
+	visibility: hidden;
 	position: absolute;
 	top: 7850px;
 }
 .fifth-Txt{
+	visibility: hidden;
 	position: absolute;
 	top: 4250px;
 }
 
 .marquee{
+	visibility: hidden;
 	position: absolute;
 	top: 5500px;
 	left: 20px;
@@ -181,12 +201,14 @@ TxtCols
 }
 
 .toTop{
+	visibility: hidden;
 	position: absolute;
 	top:10260px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
+	visibility: hidden;
 	position: absolute;
 	top: 6850px;
 	left: 0px;
