@@ -11,6 +11,7 @@
 	width: 768px;
 	background: url('../imgs/circulos_home.png') no-repeat;
 	background-position: -0px 200px;
+	background-size:75%;
 }
 .title h1 {
 	color:#005b94;
