@@ -8,7 +8,7 @@
 	background-color: transparent;
 	height: 1024px;
 	width: 768px;
-	background: url('../imgs/artbookHeader.png') no-repeat;
+	background: url('../imgs/foto-portada.jpg') no-repeat;
 	background-position: -0px 0px;
 }
 .title h1 {
@@ -44,6 +44,9 @@ h3 {
 	text-align: left;
 }
 
+.galleryPic{
+	height: 250px;
+}
 
 
 
@@ -51,87 +54,72 @@ h3 {
 /* ------------------------------------------- positions*/
 
 .title {
-	visibility: hidden;
 	position: absolute;
 	top: 0px;
 	left: 0px;
 }
 .lineasSubHead {
-	visibility: hidden;
 	position: absolute;
 	top:700px;
 }
 
-.intro-Article{
-	visibility: hidden;
-	position: absolute;
-	top: 1000px;
-}
 
 
 /* |********|
    |Pictures|
    |********| */
 
+
+
 .first-picture{
-	visibility: hidden;
 	position: absolute;
-	right: 0;
+	left: 5px;
 	top: 1900px;
 }
 .second-picture{
-	visibility: hidden;
 	position: absolute;
-	right: 0;
-	top: 2900px;
+	left: 160px;
+	top: 1900px;
 }
 .third-picture{
-	visibility: hidden;
 	position: absolute;
-	left: 0;
-	top: 3600px;
+	left: 310px;
+	top: 1900px;
 }
 .fourth-picture{
-	visibility: hidden;
 	position: absolute;
-	right: 0;
-	top: 6800px;
+	left: 460px;
+	top: 1900px;
 }
 .fifth-picture{
-	visibility: hidden;
 	position: absolute;
-	right: 0;
+	left: 620px;
 	top: 1900px;
 }
 .sixth-picture{
-	visibility: hidden;
 	position: absolute;
 	right: 0;
-	top: 2900px;
+	top: 2400px;
 }
 .seventh-picture{
-	visibility: hidden;
 	position: absolute;
 	left: 0;
 	top: 3600px;
 }
 .eight-picture{
-	visibility: hidden;
 	position: absolute;
 	right: 0;
-	top: 6800px;
-}
-.ninth-picture{
-	visibility: hidden;
-	position: absolute;
-	left: 0;
 	top: 3600px;
 }
+.ninth-picture{
+	position: absolute;
+	left: 0;
+	top: 3880px;
+}
 .tenth-picture{
-	visibility: hidden;
 	position: absolute;
 	right: 0;
-	top: 6800px;
+	top: 3880px;
 }
 
 
@@ -140,16 +128,14 @@ h3 {
    |********| */
 
 .first-pleca{
-	visibility: hidden;
 	position: absolute;
 	left: 0;
-	top: 1250px;
+	top: 1450px;
 }
 .second-pleca{
-	visibility: hidden;
 	position: absolute;
 	right: 0;
-	top: 5650px;
+	top: 3100px;
 }
 .third-pleca{
 	visibility: hidden;
@@ -158,34 +144,40 @@ h3 {
 	top: 7250px;
 }
 
+/* |********|
+   | Videos |
+   |********| */
+.video-1{
+	position: absolute;
+	left: 20px;
+	top: 4300px;
+}
+.video-2{
+	position: absolute;
+	left: 100px;
+	top: 6250px;
+}
+
+
 
 /* |********|
    |Captions|
    |********| */
 
-.foto1-Caption{
-	visibility: hidden;
+.titulosfotosartbook{
 	position: absolute;
-	top: 1950px;
-	left: 0px;
+	top: 2550px;
+	left: 50px;
 }
-.foto2-Caption{
-	visibility: hidden;
+.foto6-Caption{
 	position: absolute;
-	top: 3800px;
-	left: 0px;
+	top: 3170px;
+	left: -10px;
 }
-.foto3-Caption{
-	visibility: hidden;
+.foto10-Caption{
 	position: absolute;
-	top: 4600px;
+	top: 4700px;
 	right: 10%;
-}
-.foto4-Caption{
-	visibility: hidden;
-	position: absolute;
-	top: 8500px;
-	left: 0px;
 }
 
 
@@ -195,36 +187,20 @@ h3 {
 TxtCols
 *********/
 .first-Txt{
-	visibility: hidden;
 	position: absolute;
-	top: 2900px;
+	top: 1200px;
 }
 .second-Txt{
-	visibility: hidden;
 	position: absolute;
-	top: 3150px;
+	top: 2050px;
 }
 .third-Txt{
-	visibility: hidden;
 	position: absolute;
-	top: 5600px;
+	top: 4100px;
 }
 .fourth-Txt{
-	visibility: hidden;
 	position: absolute;
-	top: 7850px;
-}
-.fifth-Txt{
-	visibility: hidden;
-	position: absolute;
-	top: 4250px;
-}
-
-.marquee{
-	visibility: hidden;
-	position: absolute;
-	top: 5500px;
-	left: 20px;
+	top: 5650px;
 }
 
 
@@ -237,15 +213,13 @@ TxtCols
 }
 
 .toTop{
-	visibility: hidden;
 	position: absolute;
-	top:10260px;
+	top:6760px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
-	visibility: hidden;
 	position: absolute;
-	top: 6850px;
+	top: 4700px;
 	left: 0px;
 }
