@@ -72,6 +72,8 @@ h3 {
     padding: 1px 20px 1px 50px;
     text-shadow: none;
     width: auto;
+	float:left;
+	clear:both;
 }
 
 
