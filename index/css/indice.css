@@ -109,15 +109,15 @@ left: -30px;
 }
 .profile {
 	position: absolute;
-	left: 490x;
-    top: 411px;
+	left: 500px;
+    top: 400px;
 /*	background: url('../imgs/indice/insideArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
 .artBook {
-left: 496px;
+left: 486px;
     position: absolute;
-    top: 493px;
+    top: 500px;
 /*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
