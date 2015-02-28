@@ -60,11 +60,6 @@ h3 {
 	top:700px;
 }
 
-.intro-Article{
-	position: absolute;
-	top: 1000px;
-}
-
 
 /* |********|
    |Pictures|
@@ -73,37 +68,52 @@ h3 {
 .first-picture{
 	position: absolute;
 	right: 0;
-	top: 1900px;
+	top: 1750px;
 }
 .second-picture{
 	position: absolute;
 	right: 0;
-	top: 2900px;
+	top: 3250px;
 }
 .third-picture{
 	position: absolute;
 	left: 0;
-	top: 3600px;
+	top: 4950px;
 }
 .fourth-picture{
 	position: absolute;
 	right: 0;
-	top: 6800px;
+	top: 4200px;
 }
 .fifth-picture{
 	position: absolute;
 	right: 0;
-	top: 6800px;
+	top: 6700px;
 }
 .sixth-picture{
 	position: absolute;
-	right: 0;
-	top: 6800px;
+	left: 0;
+	top: 7500px;
 }
 .seventh-picture{
 	position: absolute;
 	right: 0;
-	top: 6800px;
+	top: 10200px;
+}
+
+/* |******|
+   |Videos|
+   |******| */
+
+.video-1{
+	visibility: hidden;
+	position: absolute;
+	top: 1000px;
+}
+.video-2{
+	position: absolute;
+	top: 14200px;
+	left: 100px;
 }
 
 
@@ -114,12 +124,12 @@ h3 {
 .first-pleca{
 	position: absolute;
 	left: 0;
-	top: 1250px;
+	top: 8250px;
 }
 .second-pleca{
 	position: absolute;
-	right: 0;
-	top: 5650px;
+	left: 0;
+	top: 10800px;
 }
 
 
@@ -129,20 +139,21 @@ h3 {
 
 .foto1-Caption{
 	position: absolute;
-	top: 1950px;
+	top: 2450px;
 	left: 0px;
 }
 .foto5-Caption{
 	position: absolute;
-	top: 3800px;
+	top: 8050px;
 	left: 0px;
 }
 .foto6-Caption{
 	position: absolute;
-	top: 4600px;
+	top: 8900px;
 	right: 10%;
 }
 .foto7-Caption{
+	visibility: hidden;
 	position: absolute;
 	top: 8500px;
 	left: 0px;
@@ -154,12 +165,12 @@ h3 {
 
 .infographic-1{
 	position: absolute;
-	top: 1500px;
+	top: 4350px;
 	left: 0px;
 }
 .infographic-2{
 	position: absolute;
-	top: 2500px;
+	top: 8100px;
 	left: 0px;
 }
 
@@ -169,27 +180,27 @@ TxtCols
 *********/
 .first-Txt{
 	position: absolute;
-	top: 2900px;
+	top: 1100px;
 }
 .second-Txt{
 	position: absolute;
-	top: 3150px;
+	top: 1750px;
 }
 .third-Txt{
 	position: absolute;
-	top: 5600px;
+	top: 3200px;
 }
 .fourth-Txt{
 	position: absolute;
-	top: 7850px;
+	top: 3950px;
 }
 .fifth-Txt{
 	position: absolute;
-	top: 4250px;
+	top: 9400px;
 }
 .sixth-Txt{
 	position: absolute;
-	top: 4250px;
+	top: 12850px;
 }
 
 
@@ -197,12 +208,12 @@ TxtCols
 
 .toTop{
 	position: absolute;
-	top:10260px;
+	top:14700px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 6850px;
+	top: 9650px;
 	left: 0px;
 }

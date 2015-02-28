@@ -24,26 +24,26 @@ section {
 .background{
 	background: #f9f9f9;
 	width: 100%;
-	height:9328px;
+	height:11328px;
 	z-index: 0;
 
 }
 .layer1{
 	background: transparent;
 	width: 100%;
-	height: 9895px;
+	height: 12095px;
 	z-index: 10;
 }
 .layer2{
 	background: transparent;
 	width: 100%;
-	height: 11382px;
+	height: 13382px;
 	z-index: 30;
 }
 .layer3 {
 	background: transparent;
 	width: 100%;
-	height: 12866px;
+	height: 14866px;
 	z-index: 40;
 }
 
@@ -69,5 +69,5 @@ section {
 }
 
 .mobile #scroller {
-  height: 6950px;
+  height: 11950px;
 }
