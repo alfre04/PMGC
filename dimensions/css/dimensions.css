@@ -119,6 +119,7 @@ Questions
 	position: absolute;
 	left: 5%;
 	top: 1500px;
+	width:270px;
 	
 }
 
@@ -166,7 +167,7 @@ Questions
 
 .fifth-QuestionBox {
 	position: absolute;
-	right: 5%;
+	left: 5%;
 	top: 5350px;
 	width:270px;
 }
