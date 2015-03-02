@@ -18,6 +18,7 @@
 		
         
         <script src="../js/jqueryPMGC.min.js"></script>
+    
         
 
         <script type="text/javascript">
@@ -48,6 +49,10 @@
 		<link rel="stylesheet" href="../css/lightbox.css" />
         <link rel="stylesheet" href="../css/colorbox.css" />
 		<script src="../js/jquery.colorbox.js"></script>
+
+        
+    
+        
 		<script>
 			$(document).ready(function(){
 				//Examples of how to assign the Colorbox event to elements
@@ -58,8 +63,15 @@
 					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
 					return false;
 				});
+
+				
 			});
 		</script>
+        
+        
+        
+
+				
 
   </head>
 
@@ -126,8 +138,15 @@
 								<div class="pixel infoGraphics" data-stellar-ratio="1.4">
 
 									<img class="first-picture" src="imgs/dialogues-foto-1.png">
-									<img class="second-picture" src="imgs/foto-2.png">
-									
+                                    
+                                    <div class="second-picture">
+                                    	<div style="position:relative;">
+                                        <img id="pulsodialogues_izq" src="imgs/burbu-izquierda.png">
+                                        <img id="pulsodialogues" src="imgs/burbujasjuntas.png">
+                                        <img id="pulsodialogues_dere" src="imgs/burbu-derecha.png">
+                                        </div>
+									<img src="imgs/foto-2_clean.png">
+									</div>
 
 									<img class="first-pleca" src="imgs/dialogues-pleca1.png">
 									<img class="second-pleca" src="imgs/dialogues-pleca2.png">
@@ -253,6 +272,61 @@
         </div><!-- / End Page -->
 
 		<script src="../js/pmgc-FrameWork.min.js"></script>
+                <script>
+/*		function pulse() {
+			$('#pulsodialogues').animate({
+				width: 269, height: 214, 
+				opacity: 1
+			}, 700, function() {
+				$('#pulsodialogues').animate({
+					width: 249, height: 194, 
+					opacity: 1
+				}, 700, function() {
+					pulse();
+				});
+			}); 
+		};
+		
+		pulse();
+		
+	*/	
+		
+		function pulse_dos() {
+			$('#pulsodialogues_izq').animate({
+				width: 221, height: 230, 
+				opacity: 0.5
+			}, 700, function() {
+				$('#pulsodialogues_izq').animate({
+					width: 201, height: 210, 
+					opacity: 1
+				}, 700, function() {
+					pulse_dos();
+				});
+			}); 
+		};
+		
+		pulse_dos(); 
+		
+		
+		function pulse_tres() {
+			$('#pulsodialogues_dere').animate({
+				width: 221, height: 230, 
+				opacity: 0.5
+			}, 700, function() {
+				$('#pulsodialogues_dere').animate({
+					width: 201, height: 210, 
+					opacity: 1
+				}, 700, function() {
+					pulse_tres();
+				});
+			}); 
+		};
+		
+		
+		pulse_tres(); 
+		
+		
+		</script>
 
   </body>
 

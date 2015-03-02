@@ -272,3 +272,27 @@ Questions
 	top: 8350px;
 	left: 0px;
 }
+
+/* ANIMACIONES */
+
+#pulsodialogues {
+	position:absolute;
+    left: 256px;
+    top: 48px;
+
+}
+
+#pulsodialogues_izq {
+left: 18px;
+    position: absolute;
+    top: 12px;
+
+}
+
+#pulsodialogues_dere {
+	right: 18px;
+    position: absolute;
+    top: 12px;
+	
+
+}
