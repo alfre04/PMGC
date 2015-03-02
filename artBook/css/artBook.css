@@ -12,7 +12,7 @@
 	background-position: -0px 0px;
 }
 .title h1 {
-	color:rgba(64,53,48,1);
+	color:#fff;
 	font-family: 'petrobras_sanslight';
 	position: absolute;
 	font-size: 5.6em;
@@ -20,7 +20,7 @@
 	left:10%; 
 	width: 90%;
 	text-shadow: 0px 1px 0px #000;
-	text-transform: uppercase;
+	
 }
 .Big {
 	font-family: 'petrobras_sansbold';
@@ -31,9 +31,9 @@
 	font-family: 'petrobras_sansitalic';
 	text-shadow:none;
 	font-size: 1.15em;
-	color: black;
+	color: #fff;
 	padding: 1px 20px 1px 50px;
-	background-color: #FFCE38;
+	background-color: #ed6b06;
 	margin-top: 4px;
 	width: auto;
 }
@@ -99,7 +99,7 @@ h3 {
 .sixth-picture{
 	position: absolute;
 	right: 0;
-	top: 2400px;
+	top: 3100px;
 }
 .seventh-picture{
 	position: absolute;
@@ -135,7 +135,7 @@ h3 {
 .second-pleca{
 	position: absolute;
 	right: 0;
-	top: 3100px;
+	top: 2900px;
 }
 .third-pleca{
 	visibility: hidden;
@@ -149,8 +149,8 @@ h3 {
    |********| */
 .video-1{
 	position: absolute;
-	left: 20px;
-	top: 4300px;
+	left: 100px;
+	top: 6600px;
 }
 .video-2{
 	position: absolute;
@@ -171,7 +171,7 @@ h3 {
 }
 .foto6-Caption{
 	position: absolute;
-	top: 3170px;
+	top: 3400px;
 	left: -10px;
 }
 .foto10-Caption{
@@ -192,11 +192,11 @@ TxtCols
 }
 .second-Txt{
 	position: absolute;
-	top: 2050px;
+	top: 2150px;
 }
 .third-Txt{
 	position: absolute;
-	top: 4100px;
+	top: 4600px;
 }
 .fourth-Txt{
 	position: absolute;
@@ -205,21 +205,23 @@ TxtCols
 
 
 .galleryBtn {
-	visibility: hidden;
+	background-color:#FFF !important;
 	position: absolute;
-	top: 7900px;
-	left: 50%;
-	margin-left: -100px;
+	top: 2500px;
+	left: 0px;
+	
+	padding:0px !important;
+	margin:0px !important;
 }
 
 .toTop{
 	position: absolute;
-	top:6760px;
+	top:7060px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 4700px;
+	top: 4830px;
 	left: 0px;
 }
