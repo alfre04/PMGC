@@ -5,11 +5,12 @@
 
 
 .title {
+	z-index:101;
 	position: relative;
 	background-color: transparent;
 	height: 1024px;
 	width: 768px;
-	background: url('../imgs/circulos_home.jpg') no-repeat;
+/*	background: url('../imgs/circulos_home.jpg') no-repeat; */
 	background-position: -0px 0px;
 }
 .title h1 {
@@ -99,25 +100,80 @@ h3 {
 }
 .first-Txt{
 	position: absolute;
-	top: 1000px;
+	top: 1100px;
 }
 .second-Txt{
 	position: absolute;
-	top: 1250px;
+	top: 1350px;
 }
 
 .second-picture{
 	position: absolute;
-	top: 2300px;
+	top: 2450px;
 }
 .toTop{
 	position: absolute;
-	top: 4260px;
+	top: 4300px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 3150px;
+	top: 3080px;
 	left: 0px;
 }
+
+
+
+/* ANIMACION CIRCULO*/
+
+.carruselcirculo {
+	position:relative;
+	z-index:100;
+	top:200px;
+	left:50px;
+	}
+
+.divi {
+    border-radius:50%;
+  /*  border:2px solid #000; */
+    position:fixed;
+}
+#center {
+    width:410px;
+    height:410px;
+    left:185px;
+    top:450px;
+    
+}
+#center img {
+	margin-left: -94px;
+    margin-top: -88px;}
+
+
+#sat0, #sat1, #sat2, #sat3, #sat4, #sat5, #sat6, #sat7 {
+    width:134px;
+    height:134px;
+    
+}
+
+
+/*
+#sat1, #sat3, #sat5, #sat7 {
+    width:90px;
+    height:90px;
+    
+}
+
+#sat0, #sat4 {
+    width:118px;
+    height:118px;
+    
+}
+
+#sat2, #sat6 {
+    width:134px;
+    height:134px;
+    
+}
+*/

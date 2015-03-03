@@ -54,6 +54,9 @@
 					return false;
 				});
 			});
+			
+			
+
 	</script>
 
 </head>
@@ -76,10 +79,25 @@
 						<section>
 
 						<div class="layer background" data-stellar-ratio="1">
+                        
+                        
+                        
+             <div class="carruselcirculo">
+                       
+                        <div class="divi" id="center"><img src="imgs/tierra2.png" /></div>
+                        <div class="divi" id="sat0"><img src="imgs/sat0.png" /></div>
+                        <div class="divi" id="sat1"><img src="imgs/sat1.png" /></div>
+                        <div class="divi" id="sat2"><img src="imgs/sat2.png" /></div>
+                        <div class="divi" id="sat3"><img src="imgs/sat3.png" /></div>
+                        <div class="divi" id="sat4"><img src="imgs/sat4.png" /></div>
+                        <div class="divi" id="sat5"><img src="imgs/sat5.png" /></div>
+                        <div class="divi" id="sat6"><img src="imgs/sat6.png" /></div>
+                        <div class="divi" id="sat7"><img src="imgs/sat7.png" /></div>
+                        
+             </div>           
 							
 							<div class="title accentColorPrisma">
 								<h1>Gender<br/><span class="Big">Equality</span></h1>
-                                
                                 <h5 class="txtBy"><span class="by">By</span> Laís Abramo</h5>
 							</div>
 
@@ -177,6 +195,49 @@
 
 
 	<script src="../js/pmgc-FrameWork.min.js"></script>
+    <script>
+				
+			
+var pos = $('#center').position(),
+    radiusSat = $('#sat1').width() * 0.5,
+    radius = $('#center').width() * 0.5,
+    cx = pos.left + radius,
+    cy = pos.top + radius,
+    x, y, angle = 0, angles = [],
+    spc = 360 / 8,
+    deg2rad = Math.PI / 180,
+    i = 0;
+
+for(;i < 8; i++) {
+    angles.push(angle);
+    angle += spc;
+}
+
+/// space out radius
+radius += (radiusSat + 10);
+
+loop();
+
+function loop() {
+
+    for(var i = 0; i < angles.length; i++) {
+
+        angle = angles[i];
+        
+        x = cx + radius * Math.cos(angle * deg2rad);
+        y = cy + radius * Math.sin(angle * deg2rad);
+
+        $('#sat' + i).css({left:x - radiusSat, top:y - radiusSat});
+		
+		
+    
+        angles[i] = angles[i] + 1;
+        if (angles[i] > 360) angles[i] = 0;
+    }
+    
+    requestAnimationFrame(loop);
+}
+	</script>
 
 </body>
 
