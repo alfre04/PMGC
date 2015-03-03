@@ -63,7 +63,7 @@ h3 {
 .titfoto1{
 	position: absolute;
 	left: 20px;
-	top: 1024px;
+	top: 1154px;
 }
 
 .forum{
@@ -81,29 +81,29 @@ h3 {
 	position: absolute;
 	width: 100%;
 	left: 0;
-	top: 2200px;
+	top: 2255px;
 }
 .graficados{
 	position: absolute;
 	width: 100%;
 	left: 0;
-	top: 2510px;
+	top: 2565px;
 }
 .graficatres{
 	position: absolute;
 	width: 100%;
 	left: 0;
-	top: 3060px;
+	top: 3117px;
 }
 
 .second-Txt{
 	position: absolute;
-	top: 5100px;
+	top: 5700px;
 }
 
 .pleca1{
 	position: absolute;
-	top: 5200px;
+	top: 4500px;
 	left: 0;
 }
 .third-Txt{
@@ -113,28 +113,28 @@ h3 {
 
 .pleca2{
 	position: absolute;
-	top: 6200px;
+	top: 5900px;
 	left: 0;
 }
 .fourth-Txt{
 	position: absolute;
-	top: 7600px;
+	top: 7300px;
 }
 .fifth-Txt{
 	position: absolute;
-	top: 8200px;
+	top: 7900px;
 }
 
 
 .fotofin{
 	position: absolute;
-	top: 6800px;
-	left: 0;
+	top: 7100px;
+	left: 0px;
 }
 
 .pleca3{
 	position: absolute;
-	top: 8300px;
+	top: 7550px;
 	right: 0px;
 }
 
@@ -142,12 +142,31 @@ h3 {
 
 .toTop{
 	position: absolute;
-	top: 10200px;
+	top: 10150px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 6830px;
+	top: 6750px;
 	left: 0px;
 }
+
+
+/* ANIMACIONES NUMEROS E ILUSTRACIONES */
+
+#number1 {
+	 color: #128b4d;
+    font-size: 91px;
+    left: 46px;
+    position: absolute;
+    top: 86px;
+	}
+	
+#number2 {
+	 color: #128b4d;
+    font-size: 91px;
+    left: 46px;
+    position: absolute;
+    top: 486px;
+	}

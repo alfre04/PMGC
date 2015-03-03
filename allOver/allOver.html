@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../css/jqm-demos.css">
 
     <script src="../js/jqueryPMGC.min.js"></script>
+  
 	
 
     <script type="text/javascript">
@@ -100,8 +101,16 @@
                             
                             <img class="graficauno" src="imgs/grafica-1.png">
                             <img class="graficados" src="imgs/grafica-2.png">
-							<img class="graficatres" src="imgs/grafica-3.png">
-							<img class="fotofin" src="imgs/foto-fin.jpg"> 
+                            
+							<div class="graficatres">
+                            	<div style="position:relative;">
+                                <div id="number1">0</div>
+                                <div id="number2">0</div>
+                           		<img src="imgs/grafica-3.png">
+                            	</div>
+							</div>
+                            
+                            <img class="fotofin" src="imgs/foto-fin.jpg"> 
 
 						</div><!-- fin de Layer 1 -->
 
@@ -148,15 +157,12 @@
 								<article class="txtCol right-align">
 									<p>One of the highlights of this edition was the special session on “The next wave of upstream innovation,” which discussed recent and future technological innovations aimed at exploring and producing oil and gas in ever more challenging frontiers. Petrobras’ executive manager for the Libra area, Anelise Lara, participated in the debate and used Brazilian pre-salt as an example to talk about innovation in the upstream area. She emphasized that the technologies applied, from reservoir imaging to the design of production units, have been fundamental to the success of projects, helping to expand production tenfold over the last four years and to reduce costs.</p>
 				                    <p>Paulo Sergio Rodrigues Alonso, the advisor to Petrobras’ CEO on local content and executive coordinator of the National Oil and Gas Industry Mobilization Program (Prominp), presided over the forum “Ensuring the security of supply of equipment, materials and local content infrastructure”. Paulo Alonso gave an overview of local content policies across the world and stressed that such policies should be stimulating rather than protectionist.</p>
-								</article>
-							</div>
-
-							<div class="third-Txt">
-								<article class="right-align txtCol" >
-									<p>The topics addressed by Petrobras representatives also included “The industry’s role in promoting development”, the benefits of using biofuels to cut greenhouse gas emissions, and women’s participation in the oil industry, among others.</p>
+                                    <p>The topics addressed by Petrobras representatives also included “The industry’s role in promoting development”, the benefits of using biofuels to cut greenhouse gas emissions, and women’s participation in the oil industry, among others.</p>
 									<p>Later in 2014, in September, the 17th edition of Rio Oil & Gas took place in Rio de Janeiro. Organized by the Brazilian Oil, Gas and Biofuels Institute (IBP), the conference achieved record volumes of business deals and attracted more than 47,000 visitors. As part of the event, 828 “Business Round” meetings with 176 suppliers and 37 anchor companies were held over the course of two days, generating expected business deals worth R$164 million over the following 12 months. The conference also attracted 3,800 participants from 31 countries.</p>
 								</article>
 							</div>
+
+
 
 							<div class="fourth-Txt">
 								<article class="right-align txtCol" >
@@ -222,6 +228,27 @@
 
 
 	<script src="../js/pmgc-FrameWork.min.js"></script>
+
+    <script src="../js/jquery.inview.js"></script>
+	<script src="../js/jquery.animateNumbers.js"></script>
+    
+	<script>
+		$(function(){
+			
+				$('#number1').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number1").animateNumbers(149000, true, 3000);
+				  }							
+				});
+				
+				$('#number2').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number2").animateNumbers(713000, true, 3000);
+				  }							
+				});
+		  
+	    });
+	</script>
 
 </body>
 
