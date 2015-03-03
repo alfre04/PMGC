@@ -170,3 +170,53 @@ h3 {
     position: absolute;
     top: 486px;
 	}
+	
+	
+
+#number_weels {
+	color: #128b4d;
+ font-size: 66px;
+    left: 453px;
+    position: absolute;
+    top: 53px;}
+
+
+#number_platform {
+  color: #128b4d;
+    font-size: 61px;
+    left: 602px;
+    position: absolute;
+    top: 217px;}
+	
+#number_exploration22 {
+	color: #128b4d;
+ font-size: 34px;
+    left: 477px;
+    position: absolute;
+    top: 324px;}
+
+#number_exploration52 {
+	color: #e17632;
+ font-size: 34px;
+    left: 597px;
+    position: absolute;
+    top: 324px;}
+
+#number_exploration70 {
+	color: #128b4d;
+ font-size: 34px;
+    left: 477px;
+    position: absolute;
+    top: 436px;}
+
+#number_exploration100 {
+	color: #128b4d;
+ font-size: 34px;
+    left: 597px;
+    position: absolute;
+    top: 436px;}
+	
+#quinientos {
+	display:inline-block;
+	
+	position:relative;}

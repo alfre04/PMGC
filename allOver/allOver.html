@@ -100,13 +100,22 @@
 							<img class="forum" src="imgs/foto1.png">
                             
                             <img class="graficauno" src="imgs/grafica-1.png">
-                            <img class="graficados" src="imgs/grafica-2.png">
-                            
+                            <div class="graficados">
+                            	<div style="position:relative;">
+                                        <div id="number_exploration22">0</div>
+                                        <div id="number_exploration52">0</div>
+                                        <div id="number_exploration70">0</div>
+                                        <div id="number_exploration100">0</div>
+                          			    <img src="imgs/grafica-2.png">
+                            	</div>
+                            </div>
 							<div class="graficatres">
                             	<div style="position:relative;">
-                                <div id="number1">0</div>
-                                <div id="number2">0</div>
-                           		<img src="imgs/grafica-3.png">
+                                        <div id="number1">0</div>
+                                        <div id="number2">0</div>
+                                        <div id="number_weels">0</div>
+                                        <div id="number_platform">0</div>
+                                        <img src="imgs/grafica-3.png">
                             	</div>
 							</div>
                             
@@ -144,7 +153,7 @@
 
 							<div class="first-Txt">
 								<article class="txtCol right-align">
-			                        <h3>THE 500,000-BARREL CHALLENGE</h3>
+			                        <h3>THE <div id="quinientos">0</div> BARREL CHALLENGE</h3>
 			                        <p>2014, Petrobras reached the milestone of 500,000 barrels of oil produced per day in the pre-salt layer. Today it is producing around 700,000 barrels per day in the province, which is composed of major accumulations of light oil with a high commercial value. In the pre-salt, the evolution of production is higher than that recorded in other similar areas in the world, as well as the average production per well.</p>
 			                        <p>
 			                        <h3>PETROBRAS’ GROWTH </h3>
@@ -244,6 +253,48 @@
 				$('#number2').bind('inview', function(event, visible) {
 				  if (visible) {
 							$("#number2").animateNumbers(713000, true, 3000);
+				  }							
+				});
+				
+				$('#number_weels').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_weels").animateNumbers(34, true, 3000);
+				  }							
+				});
+				
+				$('#number_platform').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_platform").animateNumbers(12, true, 3000);
+				  }							
+				});
+				
+				$('#number_exploration22').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_exploration22").animateNumbers(22, true, 3000);
+				  }							
+				});
+				
+				$('#number_exploration52').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_exploration52").animateNumbers(52, true, 3000);
+				  }							
+				});
+				
+				$('#number_exploration70').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_exploration70").animateNumbers(70, true, 3000);
+				  }							
+				});
+				
+				$('#number_exploration100').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#number_exploration100").animateNumbers(100, true, 3000);
+				  }							
+				});
+				
+				$('#quinientos').bind('inview', function(event, visible) {
+				  if (visible) {
+							$("#quinientos").animateNumbers(500000, true, 3000);
 				  }							
 				});
 		  
