@@ -44,10 +44,13 @@ body, html{
 **/
 #bg {
  position: fixed; 
- top: -50%; 
-   left: -50%; 
-   width: 200%; 
-   height: 200%;
+ top: 0px; 
+   left: 0px; 
+   width: 768px; 
+   height: 1024px;
+   
+
+    background:url(../imgs/portada/portada.jpg) repeat 0 0;  
 }
 #bg img {
  position: absolute; 
@@ -58,6 +61,7 @@ body, html{
  margin: auto; 
  width: 50%;
  height: 50%;
+ display:none;
 }
 
 /** End of background hack **/ 
