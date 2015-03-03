@@ -15,7 +15,7 @@
 	color:#005b94;
 	font-family: 'petrobras_sanslight';
 	position: absolute;
-	font-size: 5.6em;
+	font-size: 5em;
 	top: 29%;
 	left:10%; 
 	width: 90%;
@@ -90,17 +90,17 @@ h3 {
 .fifth-picture{
 	position: absolute;
 	right: 0;
-	top: 6700px;
+	top: 6900px;
 }
 .sixth-picture{
 	position: absolute;
 	left: 0;
-	top: 7500px;
+	top: 8000px;
 }
 .seventh-picture{
 	position: absolute;
 	right: 0;
-	top: 10200px;
+	top: 10700px;
 }
 
 /* |******|
@@ -108,13 +108,13 @@ h3 {
    |******| */
 
 .video-1{
-	visibility: hidden;
 	position: absolute;
-	top: 1000px;
+	top: 15000px;
+	left: 100px;
 }
 .video-2{
 	position: absolute;
-	top: 14200px;
+	top: 15350px;
 	left: 100px;
 }
 
@@ -126,12 +126,12 @@ h3 {
 .first-pleca{
 	position: absolute;
 	left: 0;
-	top: 8250px;
+	top: 8600px;
 }
 .second-pleca{
 	position: absolute;
 	left: 0;
-	top: 10800px;
+	top: 11400px;
 }
 
 
@@ -141,18 +141,21 @@ h3 {
 
 .foto1-Caption{
 	position: absolute;
-	top: 2450px;
+	top: 2700px;
 	left: 0px;
+	width: 40%;
 }
 .foto5-Caption{
 	position: absolute;
-	top: 8050px;
+	top: 8350px;
 	left: 0px;
+	width: 40%;
 }
 .foto6-Caption{
 	position: absolute;
-	top: 8900px;
-	right: 10%;
+	top: 9700px;
+	left: 60%;
+	width: 30%;
 }
 .foto7-Caption{
 	visibility: hidden;
@@ -172,7 +175,7 @@ h3 {
 }
 .infographic-2{
 	position: absolute;
-	top: 8100px;
+	top: 8600px;
 	left: 0px;
 }
 
@@ -198,11 +201,11 @@ TxtCols
 }
 .fifth-Txt{
 	position: absolute;
-	top: 9400px;
+	top: 9800px;
 }
 .sixth-Txt{
 	position: absolute;
-	top: 12850px;
+	top: 13450px;
 }
 
 
@@ -210,12 +213,12 @@ TxtCols
 
 .toTop{
 	position: absolute;
-	top:14700px;
+	top:15900px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 9650px;
+	top: 10400px;
 	left: 0px;
 }

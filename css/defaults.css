@@ -37,13 +37,14 @@ b{
 	margin-top: 20px; 
 }
 .fotoCaption{
-	width: 40%;
+	width: 100%;
 	font-family: 'petrobras_sansbold';
-	font-size: .8;
+	font-size: .8em;
 	letter-spacing: 1px;
 	padding: 20px;
 	margin-top: 50px;
 	text-shadow:none;
+	text-align: right;
 }
 
 .txtCol{
@@ -55,6 +56,10 @@ b{
 }
 .DoubleSize {
 	width: 70%;
+}
+.Slim{
+	width: 30%;
+	margin-left: 58% !important;
 }
 
 .left-align {
