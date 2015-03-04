@@ -74,13 +74,13 @@ h3 {
 .first-picture {
     left: 0;
     position: absolute;
-    top: 2800px;
+    top: 2750px;
 }
 
 .second-picture{
 	position: absolute;
 	left: 0;
-	top: 4900px;
+	top: 5100px;
 }
 .third-picture{
 	position: absolute;
@@ -112,7 +112,7 @@ h3 {
 .second-pleca{
 	position: absolute;
 	right: 0;
-	top: 6300px;
+	top: 6540px;
 }
 .third-pleca{
 	position: absolute;
@@ -132,23 +132,23 @@ h3 {
 }
 .foto2-Caption{
 	position: absolute;
-	top: 5400px;
+	top: 5700px;
 	left: 0px;
 }
 .foto3-Caption{
 	position: absolute;
-	top: 6150px;
+	top: 6400px;
 	right: 10%;
 }
 .foto4-Caption{
 	position: absolute;
-	top: 8500px;
+	top: 8740px;
 	left: 0px;
 }
 
 .foto5-Caption {
 		position: absolute;
-	top: 9100px;
+	top: 9470px;
 	left: 0px;}
 
 
