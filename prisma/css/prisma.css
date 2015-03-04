@@ -140,15 +140,15 @@ h3 {
     position:fixed;
 }
 #center {
-    width:410px;
-    height:410px;
-    left:185px;
-    top:450px;
+    
+    left:94px;
+    top:352px;
     
 }
 #center img {
-	margin-left: -94px;
-    margin-top: -88px;}
+/*	margin-left: -94px;
+    margin-top: -88px; */
+	}
 
 
 #sat0, #sat1, #sat2, #sat3, #sat4, #sat5, #sat6, #sat7 {
