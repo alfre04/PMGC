@@ -133,7 +133,7 @@ h3 {
 
 .intro-Article{
 	position: absolute;
-	top: 1100px;
+	top: 1300px;
 }
 
 .first-picture{
@@ -213,12 +213,12 @@ Questions
 .first-QuestionBox {
 	position: absolute;
 	left: 5%;
-	top: 1900px;
+	top: 1600px;
 }
 
 .first-AnswerBox{
 	position: absolute;
-	top: 2100px;
+	top: 1800px;
 }
 
 .second-QuestionBox {
