@@ -73,7 +73,7 @@ h3 {
 .first-picture{
 	position: absolute;
 	right: 0;
-	top: 1500px;
+	top: 1300px;
 }
 .second-picture{
 left: 0;
@@ -143,7 +143,7 @@ position: absolute;
 .pieuno {
 left: 459px;
     position: absolute;
-    top: 1820px;}
+    top: 1620px;}
 
 .piedos {
 	 left: 59px;
@@ -167,7 +167,7 @@ TxtCols
 *********/
 .first-Txt{
 	position: absolute;
-	top: 1000px;
+	top: 700px;
 }
 .second-Txt{
 	position: absolute;
