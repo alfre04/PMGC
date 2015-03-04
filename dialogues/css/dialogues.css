@@ -16,7 +16,7 @@
 	font-family: 'petrobras_sanslight';
 	position: absolute;
 	font-size: 5.6em;
-	top: 29%;
+	top: 25%;
 	left:10%; 
 	width: 90%;
 	text-shadow: 0px 1px 0px #000;
@@ -133,7 +133,7 @@ h3 {
 
 .intro-Article{
 	position: absolute;
-	top: 1000px;
+	top: 1300px;
 }
 
 .first-picture{
@@ -144,7 +144,7 @@ h3 {
 .second-picture{
 	position: absolute;
 	right: 0;
-	top: 3600px;
+	top: 3450px;
 }
 .third-picture{
 	position: absolute;
@@ -159,7 +159,7 @@ h3 {
 .first-pleca{
 	position: absolute;
 	left: 0;
-	top: 3050px;
+	top: 2850px;
 }
 .second-pleca{
 	position: absolute;
@@ -213,12 +213,12 @@ Questions
 .first-QuestionBox {
 	position: absolute;
 	left: 5%;
-	top: 2100px;
+	top: 1700px;
 }
 
 .first-AnswerBox{
 	position: absolute;
-	top: 2300px;
+	top: 1900px;
 }
 
 .second-QuestionBox {
