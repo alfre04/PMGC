@@ -11,6 +11,24 @@
 	background: url('../imgs/foto-portada.jpg') no-repeat;
 	background-position: -0px 0px;
 }
+
+.letras {
+	position: relative;
+	background-color: transparent;
+	height: 1024px;
+	width: 768px;
+	background: url('../imgs/letras.jpg') no-repeat;
+	background-position: -0px 0px;
+}
+.pascal {
+	position: relative;
+	background-color: transparent;
+	height: 1024px;
+	width: 768px;
+	background: url('../imgs/pascal.jpg') no-repeat;
+	background-position: -0px 0px;
+}
+
 .title h1 {
 	color: #ffcd1c;
 	font-family: "petrobras_sanslight";
