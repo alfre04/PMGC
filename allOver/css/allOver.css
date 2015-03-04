@@ -74,36 +74,43 @@ h3 {
 
 .first-Txt{
 	position: absolute;
-	top: 2100px;
+	top: 2500px;
 }
 
 .graficauno{
 	position: absolute;
 	width: 100%;
 	left: 0;
-	top: 2255px;
+	top: 2555px;
 }
 .graficados{
 	position: absolute;
 	width: 100%;
 	left: 0;
-	top: 2565px;
+	top: 2865px;
 }
 .graficatres{
 	position: absolute;
 	width: 100%;
 	left: 0;
-	top: 3117px;
+	top: 3410px;
+}
+
+
+
+.pre-second-Txt{
+	position: absolute;
+	top: 1900px;
 }
 
 .second-Txt{
 	position: absolute;
-	top: 5700px;
+	top: 6100px;
 }
 
 .pleca1{
 	position: absolute;
-	top: 4500px;
+	top: 4870px;
 	left: 0;
 }
 .third-Txt{
