@@ -75,7 +75,7 @@ h3 {
 .first-picture{
 	position: absolute;
 	right: 0;
-	top: 1900px;
+	top: 1650px;
 }
 .second-picture{
 	position: absolute;
@@ -121,7 +121,7 @@ h3 {
 
 .foto1-Caption{
 	position: absolute;
-	top: 2050px;
+	top: 2300px;
 	left: 0px;
 }
 .foto2-Caption{
@@ -136,7 +136,7 @@ h3 {
 }
 .foto4-Caption{
 	position: absolute;
-	top: 8500px;
+	top: 8370px;
 	left: 0px;
 }
 
@@ -148,15 +148,15 @@ TxtCols
 *********/
 .first-Txt{
 	position: absolute;
-	top: 2900px;
+	top: 2750px;
 }
 .second-Txt{
 	position: absolute;
-	top: 3150px;
+	top: 3000px;
 }
 .third-Txt{
 	position: absolute;
-	top: 5600px;
+	top: 5550px;
 }
 .fourth-Txt{
 	position: absolute;
@@ -184,12 +184,12 @@ TxtCols
 
 .toTop{
 	position: absolute;
-	top:10260px;
+	top:9760px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 6850px;
+	top: 6500px;
 	left: 0px;
 }
