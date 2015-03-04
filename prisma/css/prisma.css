@@ -141,8 +141,9 @@ h3 {
 }
 #center {
     
-    left:94px;
-    top:402px;
+   left: 48px;
+    top: 152px;
+    position: absolute;
     
 }
 #center img {
