@@ -76,7 +76,7 @@ h3 {
 
 .first-Txt{
 	position: absolute;
-	top: 5400px;
+	top: 8000px;
 }
 
 /* |********|
@@ -86,7 +86,7 @@ h3 {
 .first-picture{
 	position: absolute;
 	right: 0;
-	top: 4800px;
+	top: 4600px;
 }
 
 
@@ -108,7 +108,7 @@ h3 {
 .third-pleca{
 	position: absolute;
 	left: 0;
-	top: 6150px;
+	top: 5950px;
 }
 
 /********
@@ -168,25 +168,25 @@ Questions
 .fifth-QuestionBox {
 	position: absolute;
 	left: 5%;
-	top: 5350px;
+	top: 5050px;
 	width:270px;
 }
 .fifth-AnswerBox{
 	position: absolute;
-	top: 5850px;
+	top: 5450px;
 }
 
 
 .sixth-QuestionBox {
 	position: absolute;
 	left: 5%;
-	top: 6900px;
+	top: 6700px;
 	width:270px;
 }
 
 .sixth-AnswerBox{
 	position: absolute;
-	top: 7600px;
+	top: 7400px;
 }
 
 
@@ -201,7 +201,7 @@ Questions
 
 .toTop{
 	position: absolute;
-	top:8400px;
+	top:8500px;
 	left: 50%;
 	margin-left: -100px;
 }
