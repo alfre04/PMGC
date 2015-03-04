@@ -79,7 +79,7 @@ h3 {
 .first-pleca{
 	position: absolute;
 	right: 0;
-	top: 1250px;
+	top: 1950px;
 }
 .second-pleca{
 	position: absolute;
@@ -112,7 +112,13 @@ TxtCols
 *********/
 .first-Txt{
 	position: absolute;
-	top: 2070px;
+	top: 1370px;
+	width: 980px;
+}
+
+.first2-Txt{
+	position: absolute;
+	top: 2730px;
 	width: 980px;
 }
 .second-Txt{
