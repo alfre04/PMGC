@@ -30,12 +30,12 @@
 }
 
 .title h1 {
-	color: #ffcd1c;
+	color: #000;
 	font-family: "petrobras_sanslight";
 	font-size: 5.6em;
 	left: 4%;
 	position: absolute;
-	text-shadow: 0 1px 0 #000;
+	
 
 	top: 30%;
 	width: 90%;
@@ -98,7 +98,7 @@ h3 {
 .first-pleca{
 	position: absolute;
 	right: 0;
-	top: 1950px;
+	top: 1750px;
 }
 .second-pleca{
 	position: absolute;
@@ -117,7 +117,7 @@ h3 {
    |********| */
 
 .foto1-Caption{
-	left: 30px;
+	left: 427px;
 	position: absolute;
 	top: -150px;
 	width:300px;
@@ -137,7 +137,7 @@ TxtCols
 
 .first2-Txt{
 	position: absolute;
-	top: 2730px;
+	top: 2530px;
 	width: 980px;
 }
 .second-Txt{
@@ -146,11 +146,11 @@ TxtCols
 }
 .third-Txt{
 	position: absolute;
-	top: 5490px;
+	top: 6050px;
 }
 .fourth-Txt{
 	position: absolute;
-	top: 6180px;
+	top: 5530px;
 	width: 960px;
 }
 
