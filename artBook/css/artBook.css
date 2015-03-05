@@ -151,12 +151,20 @@ h3 {
 .video-1{
 	position: absolute;
 	left: 100px;
-	top: 6600px;
+	top: 6750px;
+}
+
+.titsvideos{
+ font-size: 26px;
+    left: 231px;
+    position: absolute;
+    top: 6263px;
+	font-weight:bold;
 }
 .video-2{
 	position: absolute;
 	left: 100px;
-	top: 6250px;
+	top: 6400px;
 }
 
 
@@ -172,7 +180,7 @@ h3 {
 }
 .foto6-Caption{
 	position: absolute;
-	top: 3400px;
+	top: 3470px;
 	left: -10px;
 }
 .foto10-Caption{
@@ -201,7 +209,7 @@ TxtCols
 }
 .fourth-Txt{
 	position: absolute;
-	top: 5650px;
+	top: 5700px;
 }
 
 
@@ -217,12 +225,12 @@ TxtCols
 
 .toTop{
 	position: absolute;
-	top:7060px;
+	top:7250px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 4830px;
+	top: 4970px;
 	left: 0px;
 }
