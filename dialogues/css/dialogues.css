@@ -179,8 +179,8 @@ h3 {
 
 .learnMore {
 	position: absolute;
-	top:10300px;
-	left: 30%;
+	top:10350px;
+	left: 35%;
 }
 
 .first-speaker-picture{
@@ -296,3 +296,8 @@ left: 18px;
 	
 
 }
+
+.txtvervideo {
+	 position: relative;
+    margin-left: -96px;
+    top: -20px;}
