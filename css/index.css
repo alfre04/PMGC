@@ -175,24 +175,24 @@ Letrero
 	text-indent: 10px;
 }
 .name {
-	height: 100px;
-	width: 300px;
-	position: absolute;
-	top: 21%;
-	left: 12%;
-	color: white
+ color: #000;
+    height: 100px;
+    left: 11%;
+    position: absolute;
+    top: 23%;
+    width: 300px;
 }
 .name h4{
-	font-family: 'petrobras_sanslight';
-	font-size:1em;
-	text-transform: uppercase;
-	margin-top: 20px;
-	z-index: 998;
+ font-family: "petrobras_sanslight";
+    font-size: 1.4em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    z-index: 998;
 }
 .name h5{
-	font-family: 'petrobras_sansbold';
-	font-size:1.2em;
-	margin-top: 5px;
+  font-family: "petrobras_sansbold";
+    font-size: 1.65em;
+    margin-top: 3px;
 }
 
 

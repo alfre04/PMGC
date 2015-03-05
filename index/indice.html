@@ -8,12 +8,20 @@
 		<title>Index || Petrobras Magazine Global Connections</title>
 
 		<meta name="Resource-type" content="Document" />
+        <!--
 <link rel="stylesheet" type="text/css" href="../css/reset.css">
 <link rel="stylesheet" type="text/css" href="../css/fontStyle.css">
 <link rel="stylesheet" type="text/css" href="../css/textStyles.css">
-<link rel="stylesheet" type="text/css" href="../css/animations.css">
+<link rel="stylesheet" type="text/css" href="../css/animations.css"> -->
 
 <link rel="stylesheet" type="text/css" href="css/indice.css">
+
+<link rel="stylesheet" type="text/css" href="../css/pmgc.css" />
+
+  	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
+    <link rel="stylesheet" href="../css/jqm-demos.css">
+	
+    <script src="../js/jqueryPMGC.min.js"></script>
 		
 		<!--[if IE]>
 			<script type="text/javascript">
@@ -21,24 +29,58 @@
 			</script>
 		<![endif]-->
 			
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	<!--	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	 -->
+     
+	 <script src="../js/jqueryPMGC.min.js"></script>
+    <script type="text/javascript">
+
+            $( document ).on( "pagecreate", "#demo-page", function() {
+
+
+
+                $( document ).on( "swipeleft swiperight", "#demo-page", function( e ) {
+                    // We check if there is no open panel on the page because otherwise
+                    // a swipe to close the left panel would also open the right panel (and v.v.).
+                    // We do this by checking the data that the framework stores on the page element (panel: open).
+                    if ( $( ".ui-page-active" ).jqmData( "panel" ) !== "open" ) {
+                        if ( e.type === "swiperight" ) {
+                            $( "#left-panel" ).panel( "open" );
+                        }
+                    }
+                });
+            });
+
+    </script>
 		
 		
 
 	</head>
 
-	<body >
+	<body>
+    
+      	<div data-role="page" id="demo-page" data-url="demo-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 1024px; margin:0; padding:0;">
+
+        <div class="ui-panel-wrapper">
+
+        	<!-- ****** Contenidos de la Revista  ****** -->
+               
+            <div role="main" class="ui-content" id="content">
+
+                <div class="pullBar"><img src="../imgs/pullBar.png"></div>
+
+				<div id="wrapper">
+
+					<div id="scroller">
+
+						<section>
+                        
 
 		<div id="bg">
 			<img src="imgs/low-fondo-indice.jpg">
 		</div>
 
-       
-				
-
-
-                
+   
 		<div class="index">
 
 
@@ -151,6 +193,47 @@
             </a>
 
 		</div>
+        
+        
+        
+        </section><!-- / End Section -->
+
+						</div><!-- / End Scroller -->
+
+					</div><!-- / End Wrapper -->
+			
+				<!-- End - Contenidos de la Revista -->
+
+			</div><!-- / End Content -->
+
+		</div><!-- / End ui-panel-wrapper -->
+            
+
+        <div data-role="panel" id="left-panel" data-theme="b"  data-position-fixed="true" class="ui-panel ui-panel-position-left ui-panel-display-reveal ui-panel-closed ui-body-b ui-panel-animate">
+
+			<div class="ui-panel-inner">
+	                <p><a href="../index.html" class="ui-link" rel"external" data-ajax="false">Cover</a></p>
+                    <p><a href="../welcome/welcome.html" class="ui-link" rel"external" data-ajax="false">Welcome</a></p>
+	                <p><a href="../index/indice.html" class="ui-link" rel"external" data-ajax="false">Index</a></p>
+	                <p><a href="../dialogues/dialogues.html"class="ui-link" rel"external" data-ajax="false">Dialogues</a></p>
+	                <p><a href="../allOver/allOver.html" class="ui-link" rel"external" data-ajax="false">All Over</a></p>
+	                <p><a href="../energyGeek/energygeek.html" class="ui-link" rel"external" data-ajax="false">Energy Geek</a></p>
+	                <p><a href="../prisma/prisma.html" class="ui-link" rel"external" data-ajax="false">Prisma</a></p>
+                    <p><a href="../overTheSeas/overtheseas.html" class="ui-link" rel"external" data-ajax="false">Over the Seas</a></p>
+                    <p><a href="../dimensions/dimensions.html"class="ui-link" rel"external" data-ajax="false">New Dimensions</a></p>
+                    <p><a href="../frontiers/frontiers.html" class="ui-link" rel"external" data-ajax="false">Frontiers</a></p>
+	                <p><a href="../profile/profile.html" class="ui-link" rel"external" data-ajax="false">Profile</a></p>   
+	                <p><a href="../artBook/artbook.html" class="ui-link" rel"external" data-ajax="false">Art Book</a></p>
+	                <p><a href="../bigbang/bigbang.html" class="ui-link" rel"external" data-ajax="false">Big Bang</a></p>
+	                <p><a href="../credits/credits.html" class="ui-link" rel"external" data-ajax="false">Credits</a></p>
+	                <a href="#" data-rel="close" class="closeBtn">Close</a>
+                </div><!-- / End Panel -->
+
+            
+    </div><!-- / End Page -->
+
+
+	<script src="../js/pmgc-FrameWork.min.js"></script>
 	
 	</body>
 	
