@@ -16,11 +16,12 @@
 	font-family: 'petrobras_sanslight';
 	position: absolute;
 	font-size: 5.6em;
-	top: 29%;
+	top: 55%;
 	left:10%; 
 	width: 90%;
 	text-shadow: 0px 1px 0px #000;
 	text-transform: uppercase;
+	line-height:1em;
 }
 .Big {
 	font-family: 'petrobras_sansbold';
@@ -57,7 +58,7 @@ h3 {
 }
 .lineasSubHead {
 	position: absolute;
-	top:700px;
+	top:800px;
 }
 
 .intro-Article{
@@ -128,28 +129,33 @@ h3 {
 .foto1-Caption{
 	position: absolute;
 	top: 3670px;
-	left: 350px;
+	left: 0px;
+	padding-right:50px;
 }
 .foto2-Caption{
 	position: absolute;
 	top: 5700px;
 	left: 0px;
+	padding-right:50px;
 }
 .foto3-Caption{
 	position: absolute;
 	top: 6400px;
-	right: 10%;
+	left: 0px;
+	padding-right:50px;
 }
 .foto4-Caption{
 	position: absolute;
 	top: 8740px;
 	left: 0px;
+	padding-right:50px;
 }
 
 .foto5-Caption {
 		position: absolute;
 	top: 9470px;
-	left: 0px;}
+	left: 0px;
+	padding-right:50px;}
 
 
 /********
