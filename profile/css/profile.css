@@ -30,8 +30,8 @@
 }
 
 .title h1 {
-	color: #000;
-	font-family: "petrobras_sanslight";
+	color: #ffcd1c;
+	font-family: 'petrobras_sansbold' !important;
 	font-size: 5.6em;
 	left: 4%;
 	position: absolute;
@@ -39,6 +39,7 @@
 
 	top: 30%;
 	width: 90%;
+	font-weight:bold;
 	
 }
 
