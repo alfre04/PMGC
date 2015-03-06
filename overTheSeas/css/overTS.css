@@ -139,23 +139,28 @@ h3 {
    |Captions|
    |********| */
 
+.fotoCaption p{
+	background:none !important;
+}
 .foto1-Caption{
  position: absolute;
     right: 39px;
-    top: 2740px;
+    top: 2640px;
     width: 57%;
+	
 }
+
 .foto5-Caption{
 	position: absolute;
-	top: 8050px;
+	top: 8010px;
 	left: 0px;
-	width: 40%;
+	width: 90%;
 }
 .foto6-Caption{
  left: 0;
     position: absolute;
     top: 9809px;
-    width: 49%;
+    width: 95%;
 }
 .foto7-Caption{
 	visibility: hidden;
