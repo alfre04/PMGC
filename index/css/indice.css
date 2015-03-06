@@ -55,7 +55,7 @@ margin-top: 50px;
 }
 
 .welcome{
-	
+	display:none;
  left: 0;
     position: absolute;
     top: -122px;
@@ -117,7 +117,7 @@ left: -10px;
 .artBook {
 left: 486px;
     position: absolute;
-    top: 500px;
+    top: 510px;
 /*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
@@ -125,7 +125,7 @@ left: 486px;
 	position: absolute;
 	  left: 340px;
    
-    top: 571px;
+    top: 585px;
 /*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
