@@ -110,14 +110,14 @@ left: -10px;
 .profile {
 	position: absolute;
 	left: 533px;
-    top: 429px;
+    top: 434px;
 /*	background: url('../imgs/indice/insideArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
 .artBook {
 left: 486px;
     position: absolute;
-    top: 510px;
+    top: 515px;
 /*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
@@ -125,7 +125,7 @@ left: 486px;
 	position: absolute;
 	  left: 340px;
    
-    top: 585px;
+    top: 590px;
 /*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
