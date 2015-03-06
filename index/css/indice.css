@@ -73,7 +73,7 @@ margin-top: 50px;
 .dialogo {
 	position: absolute;
 	left: 160px;
-    top: 48px;
+    top: 52px;
 /*	background: url('../imgs/indice/dialoguesArrow.png') no-repeat;background-position: 270px 50px; */
 }
 .allOver {
@@ -83,20 +83,20 @@ margin-top: 50px;
 /*	background: url('../imgs/indice/alloverArrow.png') no-repeat;background-position: 270px 50px; */
 }
 .energyGeek {
-left: -40px;
+left: -35px;
     position: absolute;
     top: 252px;
 /*	background: url('../imgs/indice/energyArrow.png') no-repeat;background-position: 270px 50px; */
 }
 .prisma {
-left: -15px;
+left: -10px;
     position: absolute;
-    top: 393px;
+    top: 390px;
 /*	background: url('../imgs/indice/prismaArrow.png') no-repeat;background-position: 270px 50px; */
 }
 .overTheSeas {
 	position: absolute;
-  left: 90px;
+  left: 95px;
    
     top: 523px;
 /*	background: url('../imgs/indice/overArrow.png') no-repeat;background-position: 270px 50px; */
