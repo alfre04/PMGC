@@ -41,7 +41,7 @@ body html {
 .index{
 position: absolute;
 width: 100%;
-height: 100%;
+
 margin-top: 50px;
 }
 .article {
@@ -89,7 +89,7 @@ left: -45px;
 /*	background: url('../imgs/indice/energyArrow.png') no-repeat;background-position: 270px 50px; */
 }
 .prisma {
-left: -15px;
+left: -32px;
     position: absolute;
     top: 393px;
 /*	background: url('../imgs/indice/prismaArrow.png') no-repeat;background-position: 270px 50px; */
