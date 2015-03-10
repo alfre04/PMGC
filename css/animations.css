@@ -451,8 +451,8 @@ slideRight
 	animation-name: slideRight;
 	-webkit-animation-name: slideRight;	
 
-	animation-duration: 1s;	
-	-webkit-animation-duration: 1s;
+	animation-duration: .3s;	
+	-webkit-animation-duration: .3s;
 
 	animation-timing-function: ease-in-out;	
 	-webkit-animation-timing-function: ease-in-out;		
@@ -462,40 +462,74 @@ slideRight
 
 @keyframes slideRight {
 	0% {
-		transform: translateX(-150%);
+		transform: translateX(-200%);
+		opacity : 0.1;
 	}
-	50%{
-		transform: translateX(8%);
-	}
-	65%{
-		transform: translateX(-4%);
-	}
-	80%{
-		transform: translateX(4%);
-	}
-	95%{
-		transform: translateX(-2%);
+	80% {
+		transform: translateX(5%);
+		opacity : 1;
 	}			
 	100% {
-		transform: translateX(0%);
-	}	
+		transform: translateX(100%);
+	}
 }
 
 @-webkit-keyframes slideRight {
 	0% {
-		-webkit-transform: translateX(-150%);
+		-webkit-transform: translateX(-200%);
+		opacity : 0.1;
 	}
-	50%{
-		-webkit-transform: translateX(8%);
+	80% {
+		-webkit-transform: translateX(5%);
+		opacity : 1;
+	}			
+	100% {
+		-webkit-transform: translateX(0%);
 	}
-	65%{
-		-webkit-transform: translateX(-4%);
+}
+
+/*
+==============================================
+slideLeft
+==============================================
+*/
+
+
+.slideLeft{
+	animation-name: slideLeft;
+	-webkit-animation-name: slideLeft;	
+
+	animation-duration: .3s;	
+	-webkit-animation-duration: .3s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(150%);
+		opacity : 0.1;
 	}
-	80%{
-		-webkit-transform: translateX(4%);
+	80% {
+		transform: translateX(-5%);
+		opacity : 1;
+	}			
+	100% {
+		transform: translateX(0%);
 	}
-	95%{
-		-webkit-transform: translateX(-2%);
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(150%);
+		opacity : 0.1;
+	}
+	80% {
+		-webkit-transform: translateX(-5%);
+		opacity : 1;
 	}			
 	100% {
 		-webkit-transform: translateX(0%);
@@ -1647,4 +1681,568 @@ Spin
 		-webkit-transform:rotateZ(360deg);
 	}			
 }
+/*
+==============================================
+Info -1 appears
+==============================================
+*/
+
+.aparece-1{
+
+	animation-name: aparece-1;
+	-webkit-animation-name: aparece-1;	
+
+	animation-duration: .8s;	
+	-webkit-animation-duration: .8s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-1 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-1 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+.aparece-2{
+
+	animation-name: aparece-2;
+	-webkit-animation-name: aparece-2;	
+
+	animation-duration: 1.2s;	
+	-webkit-animation-duration: 1.2s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-2 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-2 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+.aparece-3{
+
+	animation-name: aparece-3;
+	-webkit-animation-name: aparece-3;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-3 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-3 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+.aparece-4{
+
+	animation-name: aparece-4;
+	-webkit-animation-name: aparece-4;	
+
+	animation-duration: 1.8s;	
+	-webkit-animation-duration: 1.8s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-4 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-4 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+.aparece-5{
+
+	animation-name: aparece-5;
+	-webkit-animation-name: aparece-5;	
+
+	animation-duration: 2.2s;	
+	-webkit-animation-duration: 2.2s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-5 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-5 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+.aparece-6{
+
+	animation-name: aparece-6;
+	-webkit-animation-name: aparece-6;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-6 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-6 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+.aparece-7{
+
+	animation-name: aparece-7;
+	-webkit-animation-name: aparece-7;	
+
+	animation-duration: 2.8s;	
+	-webkit-animation-duration: 2.8s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-7 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-7 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+.aparece-8{
+
+	animation-name: aparece-8;
+	-webkit-animation-name: aparece-8;	
+
+	animation-duration: 3s;	
+	-webkit-animation-duration: 3s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-8 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-8 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+.aparece-9{
+
+	animation-name: aparece-9;
+	-webkit-animation-name: aparece-9;	
+
+	animation-duration: 3.2s;	
+	-webkit-animation-duration: 3.2s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-9 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-9 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+.aparece-10{
+
+	animation-name: aparece-10;
+	-webkit-animation-name: aparece-10;	
+
+	animation-duration: 3.5s;	
+	-webkit-animation-duration: 3.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-10 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-10 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+.aparece-11{
+
+	animation-name: aparece-11;
+	-webkit-animation-name: aparece-11;	
+
+	animation-duration: 3.7s;	
+	-webkit-animation-duration: 3.7s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-11 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-11 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+.aparece-12{
+
+	animation-name: aparece-12;
+	-webkit-animation-name: aparece-12;	
+
+	animation-duration: 4s;	
+	-webkit-animation-duration: 4s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-12 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-12 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+.aparece-13{
+
+	animation-name: aparece-13;
+	-webkit-animation-name: aparece-13;	
+
+	animation-duration: 4.2s;	
+	-webkit-animation-duration: 4.2s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+}
+
+@keyframes aparece-13 {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes aparece-13 {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	80% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
 
