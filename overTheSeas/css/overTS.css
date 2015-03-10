@@ -68,6 +68,13 @@ h3 {
 	top: 50%;
 	left: 50%;
 	margin-left: -93px;
+	z-index: 2;
+}
+.fondoBtnInfo-1{
+	position: absolute;
+	top: 5%;
+	left: 17%;
+	z-index: 1;
 }
 
 .aparece-1{
