@@ -55,6 +55,7 @@ h3 {
 }
 
 .info-1-Animation{
+	display: none;
 	position: relative;
 	top: 30px;
 	left: 110px;
@@ -62,6 +63,12 @@ h3 {
 }
 
 /*Info 1 elements Positioning */
+.info-1-toggle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -93px;
+}
 
 .aparece-1{
 	position: absolute;

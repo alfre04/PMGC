@@ -59,17 +59,6 @@
 	</script>
 
 
-		<!-- Animated infographics ( Js )
-    <script type="text/javascript" charset="utf-8" src="infographic_edgePreload.js"></script>
-    <style>
-        .edgeLoad-infographic-1 { visibility:hidden; }
-    </style>
-    <script type="text/javascript" charset="utf-8" src="infographic-2_animated_edgePreload.js"></script>
-    <style>
-        .edgeLoad-infographic-2 { visibility:hidden; }
-    </style>-->
-
-
 </head>
 
 <body>
@@ -251,6 +240,10 @@ The tanks are filled with natural sea water and then subjected to simulations of
 							
 							<img class="info-1-Header" src="imgs/infohead-1.png">
 							<div class="infografia-1">
+								
+								
+								<a class="info-1-toggle" href=""><img src="images/info-1/tap2.png"></a>
+								
 								<div class="info-1-Animation">
 									<img class="aparece-1" src="images/info-1/cuerpo.png">
 									<img class="aparece-2" src="images/info-1/bacteria-3.png">
@@ -379,6 +372,21 @@ Elephant ear coral (Phyllogorgia dilatata) is shown on the current R$100 note, t
 	
 	<script src="../js/pmgc-FrameWork.min.js"></script>
 	<script src="../js/tabSlider.js"></script>
+
+	<!-- Animation Triggers -->
+	 <script>
+
+		$(document).ready(function() {
+		        
+		    $('.info-1-toggle').click(function(){
+		        
+		        $('.info-1-Animation').css('display','block');
+		        $(this).css("visibility","hidden");
+
+		    });
+		});  
+
+    </script>
 
 </body>
 
