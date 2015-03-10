@@ -9,12 +9,14 @@
 
 	<link rel="stylesheet" type="text/css" href="css/overTS.css" />
 	<link rel="stylesheet" type="text/css" href="css/overTS-LayerHeights.css" />
+	<link rel="stylesheet" type="text/css" href="../css/animations.css" />
 
 	<!-- Menu ( Css - Js )-->
   	<link rel="stylesheet" href="../css/jquery.mobile-1.4.2.css">
     <link rel="stylesheet" href="../css/jqm-demos.css">
 	
-    <script src="../js/jqueryPMGC.min.js"></script>
+    
+	<script src="../js/jqueryPMGC.min.js"></script>
     <script type="text/javascript">
 
             $( document ).on( "pagecreate", "#demo-page", function() {
@@ -44,19 +46,20 @@
     <link rel="stylesheet" href="../css/colorbox.css" />
 	<script src="../js/jquery.colorbox.js"></script>
 	<script>
-			$(document).ready(function(){
-				//Examples of how to assign the Colorbox event to elements
-				$(".dialoguesGallery").colorbox({rel:'dialoguesGallery', width:"90%", height:"auto"});
-				
-				//Example of preserving a JavaScript event for inline calls.
-				$("#click").click(function(){ 
-					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-					return false;
-				});
+		$(document).ready(function(){
+			//Examples of how to assign the Colorbox event to elements
+			$(".dialoguesGallery").colorbox({rel:'dialoguesGallery', width:"90%", height:"auto"});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
 			});
+		});
 	</script>
 
-		<!-- Animated infographics ( Js )-->
+
+		<!-- Animated infographics ( Js )
     <script type="text/javascript" charset="utf-8" src="infographic_edgePreload.js"></script>
     <style>
         .edgeLoad-infographic-1 { visibility:hidden; }
@@ -64,7 +67,7 @@
     <script type="text/javascript" charset="utf-8" src="infographic-2_animated_edgePreload.js"></script>
     <style>
         .edgeLoad-infographic-2 { visibility:hidden; }
-    </style>
+    </style>-->
 
 
 </head>
@@ -167,6 +170,39 @@ The tanks are filled with natural sea water and then subjected to simulations of
 
 							<img class="second-pleca" src="imgs/pleca2.png">
 
+							<div class="info2Content">
+								<img src="images/info-2-Header.png">
+								<img class="brazil" src="images/Brazil.png">
+
+							</div>
+
+							<div class="infografia-2">
+								
+								<section class="tab first visible" data-tab="first">
+	                                <img class="tabIMG" src="images/step1.png">
+	                            </section>
+	                            <section class="tab second " data-tab="second">
+	                                <img class="tabIMG" src="images/step2.png">
+	                            </section>
+	                            <section class="tab third " data-tab="third">
+	                                <img  class="tabIMG" src="images/step3.png">
+	                            </section>
+	                            <section class="tab fourth " data-tab="fourth">
+	                                <img class="tabIMG" src="images/step4.png">
+	                            </section>
+	                            <section class="tab fifth " data-tab="fifth">
+	                                <img class="tabIMG" src="images/step5.png">
+	                            </section>
+	                            <section class="tab sixth " data-tab="sixth">
+	                                <img class="tabIMG" src="images/step6.png">
+	                            </section>
+	                            <section class="tab seventh " data-tab="seventh">
+	                                <img class="tabIMG" src="images/step7.png">
+	                            </section>
+
+
+							</div>
+
 							
 
 						</div><!-- fin de infographics -->
@@ -215,7 +251,20 @@ The tanks are filled with natural sea water and then subjected to simulations of
 							
 							<img class="info-1-Header" src="imgs/infohead-1.png">
 							<div class="infografia-1">
-								<div id="info-1" class="infographic-1">
+								<div class="info-1-Animation">
+									<img class="aparece-1" src="images/info-1/cuerpo.png">
+									<img class="aparece-2" src="images/info-1/bacteria-3.png">
+									<img class="aparece-3" src="images/info-1/text-1.svg">
+									<img class="aparece-4" src="images/info-1/curve-1.svg">
+									<img class="aparece-5" src="images/info-1/bacteria-2.svg">
+									<img class="aparece-6" src="images/info-1/text-2.svg">
+									<img class="aparece-7" src="images/info-1/curve-2.svg">
+									<img class="aparece-8" src="images/info-1/bacteria-3.svg">
+									<img class="aparece-9" src="images/info-1/text-3.svg">
+									<img class="aparece-10" src="images/info-1/medications.svg">
+									<img class="aparece-11" src="images/info-1/curve-3.svg">
+									<img class="aparece-12" src="images/info-1/lungs.svg">
+									<img class="aparece-13" src="images/info-1/text-4.svg">
 								</div>
 							</div>
 							<img class="info-1-Footer" src="imgs/infoFooter-1.png">
@@ -232,10 +281,12 @@ The tanks are filled with natural sea water and then subjected to simulations of
 							</div>
 
 
-							<div class="infografia-2">
-								<div id="info-2" class="infographic-2">
-								</div>
-							</div>
+							
+							<div class="arrows">
+		                            <a href="" class="navArrow prev" data-direction="prev"></a>
+		                            <a href="" class="navArrow next" data-direction="next"></a>
+	                    	</div>
+							
 
 							<div class="sixth-Txt">
 								<article class="txtCol right-align">
@@ -325,8 +376,9 @@ Elephant ear coral (Phyllogorgia dilatata) is shown on the current R$100 note, t
             
     </div><!-- / End Page -->
 
-
+	
 	<script src="../js/pmgc-FrameWork.min.js"></script>
+	<script src="../js/tabSlider.js"></script>
 
 </body>
 
