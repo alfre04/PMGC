@@ -45,6 +45,9 @@ h3 {
 	font-size: 2.5em;
 	text-align: left;
 }
+.italics{
+	font-family: 'petrobras_sansitalic' !important;
+}
 
 .infografia-1{
 	width: 100%;

@@ -6,9 +6,9 @@ body{
 	background-color: white;
 	text-shadow:none;
 	padding: 20px;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 h1 {
 	font-family: 'petrobras_sansbold';
