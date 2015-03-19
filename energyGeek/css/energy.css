@@ -45,7 +45,15 @@ h3 {
 	font-size: 2.5em;
 	text-align: left;
 }
-
+.marquee-Arise h3{font-size: 1.8em;}
+.marquee-Arise{
+	height: auto;
+	width: 100%;
+	padding: 20px;
+	text-shadow: none;
+	border: 2px solid #FFC801;
+	background-color: white;
+}
 
 
 
@@ -152,7 +160,8 @@ TxtCols
 }
 .second-Txt{
 	position: absolute;
-	top: 2950px;
+	top: 3050px;
+	left: 20px;
 }
 .third-Txt{
 	position: absolute;
