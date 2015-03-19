@@ -48,7 +48,7 @@ h3 {
 .marquee-Arise h3{font-size: 1.8em;}
 .marquee-Arise{
 	height: auto;
-	width: 100%;
+	width: 90%;
 	padding: 20px;
 	text-shadow: none;
 	border: 2px solid #FFC801;
@@ -167,6 +167,10 @@ TxtCols
 	position: absolute;
 	top: 5250px;
 }
+.third-fourth-Txt{
+	position: absolute;
+	top: 6650px;
+}
 .fourth-Txt{
 	position: absolute;
 	top: 7350px;
@@ -176,7 +180,7 @@ TxtCols
 	top: 4250px;
 }
 
-.marquee{
+.marqueeChallenges{
 	position: absolute;
 	top: 5180px;
 	left: 20px;
