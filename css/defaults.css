@@ -18,42 +18,33 @@
 
 p{
 	margin-top: 10px;
-	text-shadow:none !important;
 }
 b{
 	font-family: 'petrobras_sansbold';
-	text-shadow:none !important;
 }
 .enfasis{
 	font-family: 'petrobras_sansbold';
-	text-shadow:none !important;
 }
 .black {
 	font-family: 'petrobras_sansbold';
 	font-size: .8em;
-	text-shadow:none !important;
 }
 .dropCaps { 
 	color: #00814A;
 	font-size: 4.5em;
 	line-height: .1em;
 	font-family: 'petrobras_sansbold';
-	margin-top: 20px;
-	text-shadow:none !important; 
+	margin-top: 20px; 
 }
 .fotoCaption{
-	width: 80%;
+	width: 100%;
 	font-family: 'petrobras_sansbold';
 	font-size: .8em;
 	letter-spacing: 1px;
-	padding: 10px;
+	padding: 20px;
 	margin-top: 50px;
 	text-shadow:none;
 	text-align: right;
-	background-color: white;
-}
-.italics{
-	font-family: 'petrobras_sansitalic' !important;
 }
 
 .txtCol{
@@ -84,15 +75,10 @@ h3{
 	font-size: 2em;
 	margin-bottom: 15px;
     font-family: 'petrobras_sansbold';
-    text-shadow:none !important;
-}
-h4{
-	font-family: 'petrobras_sansbold';
-	text-shadow:none !important;
 }
 
 
-.marquee h3{font-size: 1.8em; text-shadow:none !important;}
+.marquee h3{font-size: 1.8em;}
 
 .marquee{
 	height: auto;

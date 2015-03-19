@@ -36,148 +36,128 @@ body html {
 	position: absolute;
 	top: 0px;
 	right:0px;
-	width:543px; 
-	height:168px;
-	background: url('../imgs/logoPB.png') no-repeat;
 }
 
 .index{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
+position: absolute;
+width: 100%;
 
-
-
-
-
-h4{
-	color:black;
-	font-size: 9px !important;
-	font-family: 'petrobras_sansitalic' !important;
-	text-transform: uppercase;
-}
-h3{
-	color:black;
-	font-size: 14px !important;
-	font-family: 'petrobras_sansbold' !important;
-	margin-bottom: 0px !important;
-	text-shadow:none;
-}
-p{
-	color:black;
-	font-size: 9px !important;
-	font-family: 'petrobras_sanslight' !important;
+margin-top: 50px;
 }
 .article {
-	margin: 5px 0;
-	width: 30%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 100px;
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 12%;
 }
-.article p{
-	width: 70%;
+
+.welcome{
+	display:none;
+ left: 0;
+    position: absolute;
+    top: -122px;
+/*	background: url('../imgs/indice/spiralArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
 .dimensions{
+	
 	position: absolute;
-	top: 21%;
-	left: 68% ; 
+	left: 450px;
+    top: 33px;
+/*	background: url('../imgs/indice/spiralArrow.png') no-repeat;background-position: 270px 50px; */
 }
-.dialogo{
+.dialogo {
 	position: absolute;
-	top: 24%;
-	left: 20% ; 
+	left: 160px;
+    top: 30px;
+/*	background: url('../imgs/indice/dialoguesArrow.png') no-repeat;background-position: 270px 50px; */
 }
-.allOver{
+.allOver {
 	position: absolute;
-	top: 34%;
-	left: 4% ; 
+	top:110px;
+	left:-10px;
+/*	background: url('../imgs/indice/alloverArrow.png') no-repeat;background-position: 270px 50px; */
 }
-.frontiers{
-position: absolute;
-top: 33%;
-right: -4% ; 
-width: 25%
+.energyGeek {
+left: -45px;
+    position: absolute;
+    top: 252px;
+/*	background: url('../imgs/indice/energyArrow.png') no-repeat;background-position: 270px 50px; */
 }
-.energyGeek{
+.prisma {
+left: -35px;
+    position: absolute;
+    top: 393px;
+/*	background: url('../imgs/indice/prismaArrow.png') no-repeat;background-position: 270px 50px; */
+}
+.overTheSeas {
 	position: absolute;
-	top: 45%;
-	left: 6% ; 
+  left: 90px;
+   
+    top: 523px;
+/*	background: url('../imgs/indice/overArrow.png') no-repeat;background-position: 270px 50px; */
 }
-.prisma{
+.frontiers {
 	position: absolute;
-	top: 57%;
-	left: 5% ; 
+ left: 559px;
+
+    top: 157px;
+/*	background: url('../imgs/indice/spiralArrow.png') no-repeat;background-position: 270px 50px; */
 }
-.overTheSeas{
+.profile {
 	position: absolute;
-	top: 68%;
-	left: 22% ; 
+	left: 523px;
+    top: 420px;
+/*	background: url('../imgs/indice/insideArrow.png') no-repeat;background-position: 270px 50px; */
 }
-.artBook{
-	position: absolute;
-	top: 64%;
-	left: 68% ; 
+
+.artBook {
+left: 486px;
+    position: absolute;
+    top: 515px;
+/*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
 }
-.bigbang{
+
+.bigbang {
 	position: absolute;
-	top: 70%;
-	left: 55% ; 
-}
-.profile{
-	position: absolute;
-top: 50%;
-right: 1% ;
-width: 20%; 
-}
-.welcome{
-	position: absolute;
-	top: 5%;
-	left: 13% ;
-	width: 50%;
+	  left: 340px;
+   
+    top: 590px;
+/*	background: url('../imgs/indice/artbookArrow.png') no-repeat;background-position: 270px 50px; */
 }
 
 
+
+
+
+
+
+.article h3{
+	font-family: 'petrobras_sansbold';
+	color: white;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	text-align: left;
+	width: 80%;
+	margin-left: 13%;
+}
+.article h4{
+	font-family: 'petrobras_sansregular';
+	color: white;
+	font-size: 1em;
+	margin-left: 13%;
+	text-align: left;
+	width: 65%;
+	margin-bottom: 10px;
+}
 a {
 	text-decoration: none;
 }
-
-.color-Dialogues{
-	color: #FECC07;
-}
-.color-Bigbang{
-	color: #0F5391;
-}
-.color-ArtBook{
-	color: #DF6E1D;
-}
-.color-Frontiers{
-	color: #6C5B4D;
-}
-.color-Dimensions{
-	color: #5C5C5C;
-}
-.color-EnergyGeek{
-	color: #FFCA02;
-}
-.color-AllOver{
-	color: #DC6707;
-}
-.color-OverTheSeas{
-	color: #00A4A0;
-}
-.color-Prisma{
-	color: #068141;
-}
-.color-Profile{
-	color: #FFCC03;
-}
-.color-Welcome{
-	color: #5C5C5C;
-}
-
-
 
 
 
