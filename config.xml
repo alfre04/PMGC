@@ -9,7 +9,7 @@
     <name>PMGC</name>
 
     <description>
-       PMGC
+       PMGC Issue - 65
     </description>
 
     <author href="http://llorenteycuenca.com" email="vvalverde@llorenteycuenca.com">
@@ -58,8 +58,10 @@
     <preference name="DisallowOverscroll"               value="true" />
     <preference name="HideKeyboardFormAccessoryBar"     value="true" />
     <preference name="WebViewBounce"                    value="true" />
+    <preference name="orientation" value="portrait" />
 
     <!-- Plugins -->
+
 
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.battery-status" />
@@ -83,8 +85,8 @@
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <!--
-        <gap:plugin name="com.phonegap.plugins.barcodescanner" />
-    -->
+    <gap:plugin name="org.li8.inappbrowser" version="0.1" />
+    <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />
+    <gap:plugin name="com.danielcwilson.plugins.googleanalytics" version="0.6.1" />
 
 </widget>
