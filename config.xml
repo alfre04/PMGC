@@ -85,8 +85,10 @@
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <gap:plugin name="org.li8.inappbrowser" version="0.1" />
-    <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />
-    <gap:plugin name="com.danielcwilson.plugins.googleanalytics" version="0.6.1" /> 
+    <gap:plugin name="org.li8.inappbrowser" />
+   <!-- 
+   <gap:plugin name="org.li8.inappbrowser" version="0.1" />
+   <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.2" />
+    <gap:plugin name="com.danielcwilson.plugins.googleanalytics" version="0.6.1" /> -->
 
 </widget>
