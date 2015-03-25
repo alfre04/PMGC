@@ -68,9 +68,13 @@ h3{
 }
 p{
 	color:black;
-	font-size: 9px !important;
+	font-size: 11px !important;
 	font-family: 'petrobras_sanslight' !important;
 }
+
+.ui-panel-inner p {
+	font-size:18px !important;}
+	
 .article {
 	margin: 5px 0;
 	width: 30%;
