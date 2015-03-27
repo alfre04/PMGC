@@ -106,9 +106,9 @@ p{
 }
 .frontiers{
 position: absolute;
-top: 32%;
-right: -6% ; 
-width: 25%
+    right: -5%;
+    top: 32%;
+    width: 25%;
 }
 .energyGeek{
 	position: absolute;
