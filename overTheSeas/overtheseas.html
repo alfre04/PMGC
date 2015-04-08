@@ -39,6 +39,24 @@
             });
 
     </script>
+
+    <!-- Color Box ( Css - Js )-->
+	<link rel="stylesheet" href="../css/lightbox.css" />
+    <link rel="stylesheet" href="../css/colorbox.css" />
+	<script src="../js/jquery.colorbox.js"></script>
+	<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+
+				$(".playVideo").colorbox({iframe:true, innerWidth:580, innerHeight:370});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+	</script>
   
 	
 </head>
@@ -240,8 +258,22 @@
 									    <p>Elephant ear coral (Phyllogorgia dilatata) is shown on the current R$100 note, the largest denomination note in Brazil. The Coral Vivo project’s coordinators, Clovis Castro and Débora Pires, recommended this type of coral and other marine species shown on the note to the <a class="link ui-link" style="color:#00b3b0 !important; text-decoration:none; " href="#" onclick="window.open('http://www.bcb.gov.br/novasnotas/nota-100-reais.html','_system');">Central Bank</a> and Mint. The new design is part of the second family of real notes, which started to be updated in 2010 and feature endemic Brazilian species on them.</p>
 									</article>
 								</div>
-
-								
+							
+								<div class="tit_videos_seas">
+		                            <h4>Learn more about the Brazilian reefs<br/>
+		                            <span style="font-size:18px; text-align:center;">(Coral Vivo videos in Portuguese)</span></h4>
+								</div>
+									
+									<div class="videoContainer">
+										<div class="video"> 
+									    	<a class="playVideo cboxElement ui-link" href="https://www.youtube.com/embed/YJwESgeDBis?rel=0&amp;wmode=transparent&amp;showinfo=0&amp;autohide=1&amp;autoplay=1"><img src="../imgs/playVideoBtn.png"></a> 
+										</div>
+										<div class="video"> 
+									    	<a class="playVideo cboxElement ui-link" href="https://www.youtube.com/embed/zpsL1rleVvY?rel=0&amp;wmode=transparent&amp;showinfo=0&amp;autohide=1&amp;autoplay=1"><img src="../imgs/playVideoBtn.png"></a> 
+										</div>
+									</div>
+											
+									
 
 								<div class="toTop">
 									<a href="javascript:backtotop()" class="ui-link"><img src="../imgs/backToTopBtn.png"></a>

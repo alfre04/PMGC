@@ -454,11 +454,27 @@ position: absolute;
 
 
 .tit_videos_seas {
-font-size: 22px;
-    left: 50%;
-    margin-left: -25%;
+	font-size: 22px;
+    left: 20%;
     position: absolute;
-    top: 14920px;}
+    top: 14920px;
+}
+
+.video{
+	margin-bottom: 150px;
+}
+
+.videoContainer{
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	height: 200px;
+	background-color: transparent;
+	top:15120px;
+	left: 50%;
+	margin-left: -25%;
+}
+
 	
 .fotoCaption p{
 	background-color:#FFF;
