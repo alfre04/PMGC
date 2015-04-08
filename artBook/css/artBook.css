@@ -149,13 +149,17 @@ TxtCols
 	width: 100%;
 }
 
+.video{
+	margin-bottom: 150px;
+}
+
 .videoContainer{
 	position: absolute;
 	width: 50%;
 	text-align: center;
 	height: 200px;
-	background-color: red;
-	top:6850px;
+	background-color: transparent;
+	top:6650px;
 	left: 50%;
 	margin-left: -25%;
 }
