@@ -152,7 +152,8 @@ TxtCols
 .videoContainer{
 	position: absolute;
 	width: 50%;
-	height: 100px;
+	text-align: center;
+	height: 200px;
 	background-color: red;
 	top:6850px;
 	left: 50%;
