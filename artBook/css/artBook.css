@@ -149,6 +149,16 @@ TxtCols
 	width: 100%;
 }
 
+.videoContainer{
+	position: absolute;
+	width: 50%;
+	height: 100px;
+	background-color: red;
+	top:6850px;
+	left: 50%;
+	margin-left: -25%;
+}
+
 
 
 .toTop{
