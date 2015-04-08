@@ -111,6 +111,29 @@ TxtCols
 }
 
 
+/* |********|
+   | Videos |
+   |********| */
+.video-1{
+	position: absolute;
+	top: 6850px;
+}
+
+.video-2{
+	position: absolute;
+	top: 6500px;
+}
+
+.titsvideos{
+ font-size: 26px;
+    left: 4%;
+    position: absolute;
+    top: 6333px;
+	font-weight:bold;
+}
+
+
+
 .galleryBtn {
 	background-color:#FFF !important;
 	position: absolute;
@@ -120,6 +143,10 @@ TxtCols
 	
 	padding:0px !important;
 	margin:0px !important;
+}
+
+.contentVideo{
+	width: 100%;
 }
 
 
