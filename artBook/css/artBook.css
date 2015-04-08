@@ -150,18 +150,16 @@ TxtCols
 }
 
 .video{
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
 .videoContainer{
 	position: absolute;
-	width: 50%;
+	width: 100%;
 	text-align: center;
 	height: 200px;
 	background-color: transparent;
-	top:6650px;
-	left: 50%;
-	margin-left: -25%;
+	top:6550px;
 }
 
 
