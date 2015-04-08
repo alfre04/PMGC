@@ -151,13 +151,12 @@ h3 {
    |********| */
 .video-1{
 	position: absolute;
-	left: 50%;
-	margin-left: -280px;
+	left: 0;
 	top: 6850px;
 }
 
 .titsvideos{
- font-size: 26px;
+ 	font-size: 26px;
     left: 4%;
     position: absolute;
     top: 6333px;
@@ -165,8 +164,7 @@ h3 {
 }
 .video-2{
 	position: absolute;
-	left: 50%;
-	margin-left: -280px;
+	left: 0;
 	top: 6500px;
 }
 

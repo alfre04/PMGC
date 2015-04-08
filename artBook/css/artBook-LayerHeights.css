@@ -6,6 +6,7 @@
 body {
 	background-color: #d9d9d9;
 	height: 4000px;
+	overflow:hidden;
 }
 
 section {
@@ -18,7 +19,7 @@ section {
 .layer {
   position: absolute;
   border-radius: 0px;
-  background: white;
+  background: white; 
 }
 
 .background{

@@ -284,14 +284,12 @@ a.navArrow.next::before{
 .video-1{
 	position: absolute;
 	top: 15000px;
-	left: 50%;
-	margin-left: -280px;
+	left: 0;
 }
 .video-2{
 	position: absolute;
 	top: 15350px;
-	left: 50%;
-	margin-left: -280px;
+	left: 0;
 }
 
 
