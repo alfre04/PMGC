@@ -12,25 +12,13 @@
        PMGC Issue - 65
     </description>
 
-    <author href="http://llorenteycuenca.com" email="vvalverde@llorenteycuenca.com">
-        Victor Valverde
+    <author href="http://petrobras.com.br" email="publicacao.mobile@petrobras.com.br">
+        Bruno.do.amaral
     </author>
 	
-      <icon src="icon.png" /> 
-    
-   <icon src="icon.png" /> 
-    
-   <!-- retina iPad support: PhoneGap 2.5.0+ only -->
-   <icon src="img/ios/cgch.png" gap:platform="ios" width="144" height="144" />
+   <icon src="icon.png" />
    
-   <gap:splash src="img/ios/320x480.png" gap:platform="ios" width="320"  height="480"  />
-   <gap:splash src="img/ios/640x960.png" gap:platform="ios" width="640"  height="960"  />
-   <gap:splash src="img/ios/640x1136.png" gap:platform="ios" width="640"  height="1136" />
-   <!--<gap:splash src="img/ios/cgch-1024.png" gap:platform="ios" width="1024" height="748"  />-->
-   <gap:splash src="img/ios/768x1004.png" gap:platform="ios" width="768"  height="1004" />
-   <!-- retina iPad -->
-   <!--<gap:splash src="img/ios/cgch-2048.png" gap:platform="ios" width="2048" height="1496" />-->
-   <gap:splash src="img/ios/1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+   <gap:platform name="ios" />
 
    <!--
        If you do not want any permissions to be added to your app, add the
@@ -40,7 +28,7 @@
    <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version"                 value="3.6.3" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"                 value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                      value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"                    value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                       value="false" />           <!-- all: hides the status bar at the top of the screen -->
@@ -89,6 +77,44 @@
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
+	
+   <!--iOS-->
+   <icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57"/>
+   <icon src="res/icon/ios/icon-57@2x.png" gap:platform="ios" width="114" height="114"/>
+   <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72"/>
+   
+   <!-- iPhone 6 / 6+ -->
+   <icon src="res/icon/ios/icon-60@3x.png" gap:platform="ios" width="180" height="180" />
+
+   <!-- iPhone / iPod Touch  -->
+   <icon src="res/icon/ios/icon-60.png" gap:platform="ios" width="60" height="60" />
+   <icon src="res/icon/ios/icon-60@2x.png" gap:platform="ios" width="120" height="120" />
+
+   <!-- iPad -->
+   <icon src="res/icon/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
+   <icon src="res/icon/ios/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
+
+   <!-- Settings Icon -->
+   <icon src="res/icon/ios/icon-small.png" gap:platform="ios" width="29" height="29" />
+   <icon src="res/icon/ios/icon-small@2x.png" gap:platform="ios" width="58" height="58" />
+
+   <!-- Spotlight Icon -->
+   <icon src="res/icon/ios/icon-40.png" gap:platform="ios" width="40" height="40" />
+   <icon src="res/icon/ios/icon-40@2x.png" gap:platform="ios" width="80" height="80" />
+
+    
+   <!-- retina iPad support: PhoneGap 2.5.0+ only -->
+   <icon src="res/icon/ios/pmgc.png" gap:platform="ios" width="144" height="144" />
+   
+   <gap:splash src="splash.png"/>
+   
+   <gap:splash src="res/screen/ios/320x480.png" gap:platform="ios" width="320"  height="480"  />
+   <gap:splash src="res/screen/ios/640x960.png" gap:platform="ios" width="640"  height="960"  />
+   <gap:splash src="res/screen/ios/640x1136.png" gap:platform="ios" width="640"  height="1136" />
+   <gap:splash src="res/screen/ios/768x1004.png" gap:platform="ios" width="768"  height="1004" />
+   <!-- retina iPad -->
+   <gap:splash src="res/screen/ios/1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+   <!--Fin iOS-->
 
 
 </widget>
