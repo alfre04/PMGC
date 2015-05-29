@@ -427,14 +427,14 @@ position: absolute;
 
 
 .toTop{
-	position: absolute;
-	top:15900px;
 	left: 50%;
-	margin-left: -100px;
+    margin-left: -100px;
+    position: absolute;
+    top: 14930px;
 }
 .footer{
 	position: absolute;
-	top: 10400px;
+	top: 9735px;
 	left: 0px;
 }
 
