@@ -225,12 +225,12 @@ TxtCols
 
 .toTop{
 	position: absolute;
-	top:7250px;
+	top: 6450px;
 	left: 50%;
 	margin-left: -100px;
 }
 .footer{
 	position: absolute;
-	top: 4970px;
+	top: 4370px;
 	left: 0px;
 }
